@@ -2,9 +2,14 @@
     margin: 20px 0;
 }
 
+#alone-emblem {
+  max-height: 300px;
+}
+
 #banner {
     border-bottom: none;
     margin-top: -20px;
+    background-color: #6C7A89;
 }
 
 #banner h1 {
