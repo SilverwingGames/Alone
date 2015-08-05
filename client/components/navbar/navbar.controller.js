@@ -3,9 +3,19 @@
 angular.module('aloneApp')
   .controller('NavbarCtrl', function ($scope, $location, Auth) {
     $scope.menu = [{
-      'title': 'Home',
-      'link': '/'
-    }];
+        'title': 'Home',
+        'link': '/'
+      },
+      {
+        'title': 'Reddit',
+        'type': '_blank',
+        'link': ''
+      },
+      {
+        'title': 'Game',
+        'link': '/game'
+      }
+    ];
 
     $scope.isCollapsed = true;
     $scope.isLoggedIn = Auth.isLoggedIn;
